@@ -6,7 +6,7 @@ public class Book {
     private String ISBN;
 
     //Constructor
-    public Book(String book_name, String author, String publish_year, String ISBN){
+    public Book(String book_name, String author, String publish_year, String ISBN) {
 
         this.book_name = book_name;
         this.author = author;

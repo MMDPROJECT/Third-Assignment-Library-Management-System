@@ -1,7 +1,0 @@
-1- getting stock in infinite loop when we enter invalid user_name or password in functions:
-    - userSignUp
-    - userLogin
-    - librarian login
-2- getting execution failed in userSignUp and librarianSignIn. Because:
-    - we return a null after each failed function calling, if after a failed calling we our calling succeed we get an error
-

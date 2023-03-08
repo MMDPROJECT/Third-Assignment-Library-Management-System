@@ -1,14 +1,10 @@
-![image-20230306161149995](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306161149995.png)
+![image-20230306161149995](https://s2.uupload.ir/files/shahid_beheshti_icon_euaa.png)
 
 ​										
 
-# 														 						   							Third Assignment Report
+# 												 					THIRD ASSIGNMENT REPORT								
 
-
-
-## 						Mohammad Hossein Basouli		401222020									
-
-
+## 			           												Mohammad Hossein Basouli		   401222020
 
 ​									
 
@@ -32,20 +28,20 @@
 
 
 
-# Introduction:
+## Introduction:
 
-- #### A brief description of the program:
+- #### **A brief description of the program**:
 
-  -  Our program provides a **library** along with it's **books**, **librarians**, **users** and their funtionalities. (for example adding a **book** to **library** by **librarian** and ...)
+  -  Our program provides a **library** along with it's **books**, **librarians**, **users** and their functionalities. (for example adding a **book** to **library** by **librarian** and ...)
 
 - #### Objectives of our program:
 
   1. Allow new people to register their account in the **library** and having **user** permissions.
   2. Allow registered **users** to easily login and borrow **book**, see a list of books and ... 
   3. Allow **librarians** to login and have some accessibilities such as adding a **new user**, adding a **new librarian** and ...
-  4. Program should provide a handsome **menu** for all of the **users** (including **ordinary users** and **librarians**) to let them know and do what defined in their objects and show meaningful messages when any process finishes.  
+  4. Program should provide a elegant **menu** for all of the **users** (including **ordinary users** and **librarians**) to let them know and do what defined in their objects and show meaningful messages when any process finishes.  
 
-- #### Bonus  Implented Objectives:
+- #### Bonus  Implemented Objectives:
 
   1.Input validation : Ensure the data or information entered by a **user** or system is correct, complete, and appropriate for the intended use. For instance, a user shouldn't be able to **borrow** the same **book** twice, or return a **book** they haven't borrowed yet.
 
@@ -59,9 +55,9 @@
 
      
 
-     ![image-20230306222728139](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306222728139.png)
+     ![image-20230306222728139](https://s2.uupload.ir/files/first_uml_g19h.png)
 
-![	](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306222808784.png)	
+![	](https://s2.uupload.ir/files/second_uml_rofs.png)	
 
 
 
@@ -77,7 +73,7 @@
 
 ## Design and Implementation:
 
-- ### A Desription to our runMenu():
+- #### A Description to our runMenu():
 
 1. First we initialize a default **librarian** and add a **book** to **library** and run menu:
 
@@ -133,7 +129,7 @@
 
 
 
-![image-20230306230225682](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306230225682.png)
+![image-20230306230225682](https://s2.uupload.ir/files/first_diagram_bp2u.png)
 
 
 
@@ -172,7 +168,7 @@
 
   
 
-  ![image-20230306231041926](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306231041926.png) 
+  ![image-20230306231041926](https://s2.uupload.ir/files/second_diagram_cphe.png) 
 
   
 
@@ -180,7 +176,7 @@
 
     
 
-    ![image-20230306231600692](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306231600692.png)
+    ![image-20230306231600692](https://s2.uupload.ir/files/third_diagram_3ew0.png)
 
     ```java
     public static void userPage(Library library, User user){
@@ -252,11 +248,11 @@
 
 
 
-- **Option 3** provides a menu for **librarians** to easily login trough it and then enter to **librarianPage()** and their functionalities.
+- **Option 3** provides a menu for **librarians** to easily login through it and then enter to **librarianPage()** and their functionalities.
 
   
 
-  ![image-20230306232542218](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306232542218.png)
+  ![image-20230306232542218](https://s2.uupload.ir/files/fourth_diagram_tzx7.png)
 
 ​			
 
@@ -286,7 +282,7 @@ public static void librarianLogin (Library library){
 
   
 
-  ![image-20230306234431428](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306234431428.png)
+  ![image-20230306234431428](https://s2.uupload.ir/files/fiveth_diagram_eug7.png)
 
 ```java
 public static void librarianPage (Library library, Librarian librarian) {
@@ -454,7 +450,7 @@ public static void librarianPage (Library library, Librarian librarian) {
 
 
 
-- ### A Desription of Input Validation:
+- #### A Description of Input Validation:
 
   - We validate our input in this events:
 
@@ -474,7 +470,7 @@ public static void librarianPage (Library library, Librarian librarian) {
        }
        ```
 
-    2. When **user** wants to **login** as a registred user: We check if that **username** and **password** entered is correct or not.
+    2. When **user** wants to **login** as a registered user: We check if that **username** and **password** entered is correct or not.
 
        ```java
        public static void userLogin (Library library){
@@ -696,9 +692,9 @@ public static void librarianPage (Library library, Librarian librarian) {
         }
         ```
 
-- ### An Brief Description to Access Modifiers in Java:
+- #### An Brief Description to Access Modifiers in Java:
 
-  - We used only two diffrent access modifiers in our program:
+  - We used only two different access modifiers in our program:
 
     1. **Private**:
        - An access modifier that could be used for classes, methods and attributes and restricts access somehow that we cannot make use of that out of it's block
@@ -708,23 +704,23 @@ public static void librarianPage (Library library, Librarian librarian) {
 
      
 
-### Testing and Evaluation:
+## Testing and Evaluation:
 
 1. First test case assumes that we are a **librarian** called "**Mobin Nesari**" and want to login and do some works as a **librarian**:
 
-   ![image-20230306234929978](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230306234929978.png)
+   ![image-20230306234929978](https://s2.uupload.ir/files/1_1xw7.png)
 
 - here we test some functionalities such as **updating a book**  and after that see a list of **books**:
 
-  ![image-20230307000131817](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307000131817.png)
+  ![image-20230307000131817](https://s2.uupload.ir/files/2_g0a5.png)
 
-  ![image-20230307000150219](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307000150219.png)
+  ![image-20230307000150219](https://s2.uupload.ir/files/3_ytim.png)
 
 - now we test another functionality of **librarians**. we want to register a new **librarian** called "**Mohammad Hossein Basouli**".
 
-  ![image-20230307000549716](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307000549716.png)
+  ![image-20230307000549716](https://s2.uupload.ir/files/4_gqjc.png)
 
-  ![image-20230307000620635](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307000620635.png)
+  ![image-20230307000620635](https://s2.uupload.ir/files/5_q8wg.png)
 
 - everything works great in this testcase let's test another testcase.
 
@@ -732,22 +728,22 @@ public static void librarianPage (Library library, Librarian librarian) {
 
 2. In the second test case we want to login as a **user** called "**reza mosavi**" and test some functionalities.
 
-![image-20230307000920511](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307000920511.png)
+![image-20230307000920511](https://s2.uupload.ir/files/6_ld4w.png)
 
 - here we logged in and requested to show a list of **books**. now let's **borrow a book** and see what happens.
 
-  ![image-20230307001112206](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307001112206.png)
+  ![image-20230307001112206](https://s2.uupload.ir/files/7_baci.png)
 
 - now let's see what happens if we want to return a **book** that we haven't borrowed yet.
 
-  ![image-20230307001222934](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307001222934.png)
+  ![image-20230307001222934](https://s2.uupload.ir/files/8_p65e.png)
 
 - now let's see what happened to the list of **books** when we borrowed the **book**. then we return the **book** back to library and see what happens to list of **books** again
 
-  ![image-20230307001451778](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307001451778.png)
+  ![image-20230307001451778](https://s2.uupload.ir/files/9_ji3m.png)
 
-  ![image-20230307001525554](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307001525554.png)
+  ![image-20230307001525554](https://s2.uupload.ir/files/10_94o5.png)
 
-  ![image-20230307001540997](C:\Users\Datis\AppData\Roaming\Typora\typora-user-images\image-20230307001540997.png)
+  ![image-20230307001540997](https://s2.uupload.ir/files/11_fk66.png)
 
 - also we see every thing works alright in this test case.
